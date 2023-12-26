@@ -1,7 +1,9 @@
 import time
 
+
 def encryptMessage(key, message):
     ciphertext = [''] * key
+    
     for column in range(key):
         currentIndex = column
         while currentIndex < len(message):
