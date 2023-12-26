@@ -13,6 +13,19 @@ $head academic_interests
     operating systems design and security, cyber-physical systems security, and programming embedded systems. I love learning
     about cryptography and am seeking to further develop my algorithmic thinking. 
 
+$cat hobbies
+
+    Fingerstyle guitar: Blues of the American Piedmont (Blind Blake, Etta Baker, Elizabeth Cotton)
+                        Country guitar (Chet Atkins, Glen Campbell)
+    Languages: Russian, French, Spanish
+    Books:
+            Nonfiction: -- information history, art history, area history
+            Fiction -- Russian-language literature (Bulgakov, Dostoyevsky, Olesha, Pelevin)
+            Currently reading: A Hacker's Mind by Bruce Schneier
+    Math: Never my strong suit in school, but it's fun to practice without worrying about grades and deadlines!
+            Number Theory: An Introduction to Mathematics by William A. Coppel
+            Calculus: Early Transcendentals (8e) by James Stewart
+
 $cat os_hardware
 
     Like most, my computer journey began on Windows with occassional Mac usage in middle and high school. My first personal laptop 
@@ -27,19 +40,6 @@ $cat os_hardware
 
     I currently daily drive Windows 11 (but pretty much only use it to spin up Linux VMs at this point) and Arch Linux now, and
     it's made my computing experience all the more enjoyable and educational. 
-
-$cat hobbies
-
-    Fingerstyle guitar: Blues of the American Piedmont (Blind Blake, Etta Baker, Elizabeth Cotton)
-                        Country guitar (Chet Atkins, Glen Campbell)
-    Languages: Russian, French, Spanish
-    Books:
-            Nonfiction: -- information history, art history, area history
-            Fiction -- Russian-language literature (Bulgakov, Dostoyevsky, Olesha, Pelevin)
-            Currently reading: A Hacker's Mind by Bruce Schneier
-    Math: Never my strong suit in school, but it's fun to practice without worrying about grades and deadlines!
-            Number Theory: An Introduction to Mathematics by William A. Coppel
-            Calculus: Early Transcendentals (8e) by James Stewart
 
 <!---
 andykeefe/andykeefe is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
