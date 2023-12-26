@@ -1,1 +1,2 @@
-This directory contains code used for a introductory python course I am teaching at my local library. The code is intended to "kick-off" someone's coding jounr
+This directory contains code used for a introductory Python course I am teaching at my local library. The exercises are intended to "kick-off" someone's coding journey, not provide a comprehensive overview or even a foundational understanding of computer science principles. 
+It begins with a "Hello world!" program (as is tradition) and ends with a basic transposition cipher, all in Python. I also cover some basic cryptography terms just for the sake of fun, because what is more fun than cryptography? The answer is nothing. 
