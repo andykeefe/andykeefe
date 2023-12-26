@@ -2,9 +2,10 @@ $whoami
 
     I'm Andy. I went to UIUC and graduated with a bachelors in International Relations.
     
-    While there I took coursework on international security, diplomacy, history, and literature of the Russian language. I often read 
-    about these subjects when I have the chance. I love coding despite only doing it since I 2018, but more than that, I love learning
-    how to code. I love learning in general and have an insatiable desire to be a permanent, full-time, fully-insured student. My first
+    While there I took coursework on international security, diplomacy, history, and 
+    literature of the Russian language. I often read about these subjects when I have the chance. 
+    I love coding, but more than that, I love learning how to code. I love learning in general and 
+    have an insatiable desire to be a permanent, full-time, fully-insured student. My first
     action once I win the lottery will be in pursuit of this goal. 
 
 $head academic_interests
