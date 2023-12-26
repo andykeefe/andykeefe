@@ -24,9 +24,12 @@ def congrats():
     print("you have called a function!")
     print("")
     
+def main():
+    print("who are you?")
+    name = input()
+    print("Well done, " + name + "....")
+    congrats()
+    swearWord(name)
 
-print("who are you?")
-name = input()
-print("Well done, " + name + "....")
-congrats()
-swearWord(name)
+if __name__ == '__main__':
+    main()
