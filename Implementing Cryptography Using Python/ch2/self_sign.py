@@ -1,3 +1,7 @@
+''' This code generates a self-signed certificate. Don't trust a certificate
+that is signed by the entity you're trying to certify. The issuer and the 
+signer of the certificate are the same.'''
+
 from cryptography.hazmat.backends import default_backend
 from cryptography.hazmat.primitives import serialization
 from cryptography.hazmat.primitives.asymmetric import rsa
