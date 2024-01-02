@@ -1,22 +1,25 @@
-This directory contains code used for a introductory Python course I am teaching at my local library. The exercises are intended to "kick-off" 
+This directory contains code used for a introductory Python course I am teaching at thr library. The exercises are intended to "kick-off" 
 someone's coding journey, not provide a comprehensive overview or even a foundational understanding of computer science principles. I'll leave
-that to the learner. Also I'm definitely not the person who should be teaching computer science concepts. 
+that to the learner. 
+
+Also, I'm definitely not the person who should be teaching computer science concepts. You wouldn't learn to fly a plane from an inexperienced
+pilot, would you?
 
 It begins with a "Hello world!" program (as is tradition) and ends with a basic transposition cipher, all in Python. I also cover some basic 
-cryptography terms just for the sake of fun, because what is more fun than cryptography? Nothing. Maybe basketball. 
+cryptography terms just for the sake of whimsy, because what is more fun than cryptography? Nothing. (Maybe basketball.) 
 
     Exercise 1: Hello world
         first function, defining variables, tripping errors
 
-    Exercise 2: No idea what to call this I'm afraid. Arithmetic stuff? Variable types?
-        variable types (type() function), operators, standard functions
+    Exercise 2: Arithmetic stuff? Variable types?
+        variable types, type() function, operators, standard functions
 
     Exercise 3: Conditional statements
         if-else, while, input() function, type conversion
 
     Exercise 4: Defining functions
         user-defined functions, calling functions, flow control
-        with some jazz: importing modules, calling functions from imported modules, if __name__ == '__main__' convention
+            with some jazz: importing modules, calling functions from imported modules, if __name__ == '__main__'
 
     Exercise 5: Lists
         arrays, indexing, type conversions
