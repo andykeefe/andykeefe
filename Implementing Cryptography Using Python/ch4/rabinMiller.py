@@ -1,3 +1,12 @@
+""" The Miller-Rabin algorithm is a primality test. Miller's first test in 1976 was
+    a deterministic algorithm, and Michael Rabin modified it to make it an 
+    unconditional probablistic algorithm.
+
+    A deterministic algorithm always produces the same output given a specific
+    input, and are the most frequently studied types of algorithms in computer
+    science. 
+                """
+
 import random
 
 
