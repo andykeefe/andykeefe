@@ -1,4 +1,4 @@
-This directory contains code used for a introductory Python course I am teaching at thr library. The exercises are intended to "kick-off" 
+This directory contains code used for a introductory Python course I am teaching at the library. The exercises are intended to "kick-off" 
 someone's coding journey, not provide a comprehensive overview or even a foundational understanding of computer science principles. I'll leave
 that to the learner. 
 
