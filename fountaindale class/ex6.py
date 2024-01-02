@@ -22,6 +22,10 @@ def main():
         print("Select a key: ")
         myKey = int(input())
 
+        if myKey >= len(plaintext):
+            print("Key is insecure. Enter a smaller key: ")
+            myKey = int(input())
+
         secretCode = encryptMessage(myKey, plaintext)
         print(secretCode)
         print('')
