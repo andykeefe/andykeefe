@@ -22,7 +22,7 @@ def main():
         print("Select a key: ")
         myKey = int(input())
         if len(plaintext) > 10:
-            while myKey >= len(plaintext):
+            while myKey >= len(plaintext) - 3:
                 print("Key is insecure. Enter a smaller key: ")
                 myKey = int(input())
 
