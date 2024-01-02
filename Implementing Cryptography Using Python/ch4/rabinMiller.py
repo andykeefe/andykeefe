@@ -74,7 +74,7 @@ def isPrime(n, k):
 
 
     """ For the Miller-Rabin algorithm, we need to find an odd number
-    such that n -1 = 2^s * d, where s is the largest power of 2 that 
+    such that n - 1 = 2^s * d, where s is the largest power of 2 that 
     devides n - 1.
 
         The code loops, repeatedly dividing d by 2 until it is odd. 
