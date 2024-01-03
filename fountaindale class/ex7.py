@@ -4,8 +4,7 @@ import hashlib
 def saltPasswd_sha512(password):
     
     salt = b'aRk4'
-    print(salt + password)
-    print("")
+    print(password + salt)
     hash_value = hashlib.sha512(salt + password).hexdigest()
 
     print("%s:%s" % (salt, hash_value))
