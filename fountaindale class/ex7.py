@@ -13,13 +13,14 @@ def saltPasswd_sha512(password):
 
 
 def main():
+    while True:
+        
+        print("Choose a password: ")
+        plaintext = input()
 
-    print("Choose a password: ")
-    plaintext = input()
+        pass_bytes = bytes(plaintext, 'UTF-8')
 
-    pass_bytes = bytes(plaintext, 'UTF-8')
-
-    hashed_sha512 = saltPasswd_sha512(pass_bytes) 
+        hashed_sha512 = saltPasswd_sha512(pass_bytes) 
 
 
 if __name__ == '__main__':
