@@ -7,6 +7,10 @@ def saltPasswd_sha512(password):
     print(password + salt)
     hash_value = hashlib.sha512(password + salt).hexdigest()
 
+    """ The %s symbol passes a str variable into the function.
+        In this context, salt value is printed, then a colon, and 
+        finally the computed hexadecimal hash value.                """
+    
     print("%s:%s" % (salt, hash_value))
     return hash_value
 
