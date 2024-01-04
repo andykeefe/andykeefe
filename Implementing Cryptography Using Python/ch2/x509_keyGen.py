@@ -1,9 +1,5 @@
-"""
-
-'cryptography' python library provides lots of modules and primitives
-that make this a lot easier
-
-"""
+"""    cryptography python library provides lots of modules and primitives
+        that make this a lot easier                                       """
 
 from cryptography.hazmat.backends import default_backend
 from cryptography.hazmat.primitives import serialization
@@ -28,15 +24,13 @@ key = rsa.generate_private_key(
         backend=default_backend()
         )
 
-"""
+"""        Write generated key to rsakey.pem file 
+                Privacy Enhanced Mail (PEM): converts binary data into text format,
+                may be passed through communications channels.
+                Technically, this is a container format for certificate chains
+                including public and private keys and root certs, as well as public certs.
 
-Write generated key to rsakey.pem file 
-Privacy Enhanced Mail (PEM): converts binary data into text format,
-may be passed through communications channels.
-Technically, this is a container format for certificate chains
-including public and private keys and root certs, as well as public certs.
-
-"""
+                                                                                        """
 
 with open("rsakey.pem", "wb") as f:
     f.write(key.private_bytes(
@@ -45,22 +39,18 @@ with open("rsakey.pem", "wb") as f:
         encryption_algorithm=serialization.BestAvailableEncryption(encryptedPass),
         ))
 
-        """
+        """         BestAvailableEncryption() just chooses the best algorithm available.
+                        In this case, likely AES-256, the current standard for security. We 
+                        use AES with the key Ilik32cod3 for encryption.
         
-        BestAvailableEncryption() just chooses the best algorithm available.
-        In this case, likely AES-256, the current standard for security. We 
-        use AES with the key Ilik32cod3 for encryption
-        
-        """
+                                                                                        """
 
-"""
+"""         CSR is created using CertificateSigningREquestBuilder() function, and is 
+                then signed using the private RSA key and a hash algorithm SHA-256. The CRS
+                contains information on country, state, name, org, and common name, as well
+                as an alternative DNS name                 
+                                                        """
 
-CSR is created using CertificateSigningREquestBuilder() function, and is 
-then signed using the private RSA key and a hash algorithm SHA-256. The CRS
-contains information on country, state, name, org, and common name, as well
-as an alternative DNS name
-
-"""
 csr = x509.CertificateSigningRequestBuilder().subject_name(x509.Name([
     x509.NameAttribute(NameOID.COUNTRY_NAME, u"US"),
     x509.NameAttribute(NameOID.STATE_OR_PROVINCE_NAME, u"IL"),
