@@ -1,7 +1,9 @@
-## ----------------------------------------------------------------------- ##
-## 'cryptography' python library provides lots of modules and primitives
-## that make this a lot easier
-## ----------------------------------------------------------------------- ##
+"""
+
+'cryptography' python library provides lots of modules and primitives
+that make this a lot easier
+
+"""
 
 from cryptography.hazmat.backends import default_backend
 from cryptography.hazmat.primitives import serialization
@@ -12,11 +14,12 @@ from cryptography.hazmat.primitives import hashes
 
 """
 Generating the RSA private key
-
+-------------------------------
 Algorithm: RSA
 Key length: 2048 bits
 Public exponent = 65537
-                                """
+-------------------------------
+"""
 
 encryptedPass = b"iNeeds0up"
 key = rsa.generate_private_key(
@@ -26,12 +29,14 @@ key = rsa.generate_private_key(
         )
 
 """
+
 Write generated key to rsakey.pem file 
 Privacy Enhanced Mail (PEM): converts binary data into text format,
 may be passed through communications channels.
 Technically, this is a container format for certificate chains
 including public and private keys and root certs, as well as public certs.
-                                                                                """
+
+"""
 
 with open("rsakey.pem", "wb") as f:
     f.write(key.private_bytes(
@@ -41,17 +46,21 @@ with open("rsakey.pem", "wb") as f:
         ))
 
         """
+        
         BestAvailableEncryption() just chooses the best algorithm available.
         In this case, likely AES-256, the current standard for security. We 
         use AES with the key Ilik32cod3 for encryption
-                                                         """
+        
+        """
 
 """
+
 CSR is created using CertificateSigningREquestBuilder() function, and is 
 then signed using the private RSA key and a hash algorithm SHA-256. The CRS
 contains information on country, state, name, org, and common name, as well
 as an alternative DNS name
-                                 """
+
+"""
 csr = x509.CertificateSigningRequestBuilder().subject_name(x509.Name([
     x509.NameAttribute(NameOID.COUNTRY_NAME, u"US"),
     x509.NameAttribute(NameOID.STATE_OR_PROVINCE_NAME, u"IL"),
@@ -69,7 +78,7 @@ csr = x509.CertificateSigningRequestBuilder().subject_name(x509.Name([
 """
 Another PEM file created with the generated CSR written
 to it.
-        """
+"""
 
 with open("csr.pem", "wb") as f:
     f.write(csr.public_bytes(serialization.Encoding.PEM))
