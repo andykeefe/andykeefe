@@ -1,3 +1,6 @@
+""" This exercise is adapted from the book "Implementing Cryptography with Python"
+    by Shannon Bray, chapter 3, page 68 """
+
 import hashlib
 
 
