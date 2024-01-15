@@ -26,3 +26,6 @@ cryptography terms just for the sake of whimsy, because what is more fun than cr
 
     Exercise 6: Transposition cipher
         cryptography concepts, for and while loops, passing variables to functions
+
+    Exercise 7: Hashing passwords
+        culmination project, real application, bytes() function
