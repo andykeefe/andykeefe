@@ -1,5 +1,7 @@
-""" This exercise is adapted from the book "Implementing Cryptography with Python"
-    by Shannon Bray, chapter 3, page 68 """
+"""  This exercise is adapted from the book "Implementing Cryptography with Python"
+    by Shannon Bray, chapter 3, page 68. They differ in that this program 
+    allows the program user to input a password repeatedly rather than having
+    it fixed.                                           """
 
 import hashlib
 
@@ -10,7 +12,7 @@ def saltPasswd_sha512(password):
     print(password + salt)
     hash_value = hashlib.sha512(password + salt).hexdigest()
 
-    """ The %s symbol passes a str variable into the function.
+    """     The %s symbol passes a str variable into the function.
         In this context, salt value is printed, then a colon, and 
         finally the computed hexadecimal hash value.                """
     
