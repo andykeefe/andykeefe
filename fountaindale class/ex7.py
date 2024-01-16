@@ -10,7 +10,7 @@ import os
 def saltPasswd_sha512(password):
     
     salt = os.urandom(8)
-    print(password + salt)
+    print("Password: %s \nSalt: %s" % (password, salt))
     hash_value = hashlib.sha512(password + salt).hexdigest()
 
     """     The %s symbol passes a str variable into the function.
