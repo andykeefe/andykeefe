@@ -17,10 +17,8 @@ def saltPasswd_sha512(password):
         In this context, salt value is printed, then a colon, and 
         finally the computed hexadecimal hash value.                """
     
-    print("The hash value is " + hash_value)
-    print("")
-    print("The length of the plain password is %s\nThe length of the hash value is %s" % (len(password), len(hash_value)))
-    print("")
+    print("The hash value is " + hash_value + "\n")
+    print("The length of the plain password is %s\nThe length of the hash value is %s\n" % (len(password), len(hash_value)))
     
     return hash_value
 
