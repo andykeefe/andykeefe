@@ -4,11 +4,12 @@
     it fixed.                                           """
 
 import hashlib
+import os
 
 
 def saltPasswd_sha512(password):
     
-    salt = b'aRk4'
+    salt = os.urandom(8)
     print(password + salt)
     hash_value = hashlib.sha512(password + salt).hexdigest()
 
@@ -16,7 +17,11 @@ def saltPasswd_sha512(password):
         In this context, salt value is printed, then a colon, and 
         finally the computed hexadecimal hash value.                """
     
-    print("%s:%s" % (salt, hash_value))
+    print("The salt is %s and the hash value is %s" % (salt, hash_value))
+    print("")
+    print("The length of the plain password is %s and the length of the hash value is %s" % (len(password), len(hash_value)))
+    print("")
+    
     return hash_value
 
 
