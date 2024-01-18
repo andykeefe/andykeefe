@@ -1,7 +1,7 @@
 """  This exercise is adapted from the book "Implementing Cryptography with Python"
     by Shannon Bray, chapter 3, page 68. They differ in that this program 
     allows the program user to input a password repeatedly rather than having
-    it fixed. It also uses randomized rather than a fixed salt                                          """
+    it fixed. It also uses randomized rather than a fixed salt                 """
 
 import hashlib
 import os
