@@ -5,22 +5,18 @@
 
 import hashlib
 import os
-
+import time
 
 def saltPasswd_sha512(password):
     
-    salt = os.urandom(8)
-    print("Password: %s \nSalt: %s" % (password, salt))
+    salt = os.urandom(4)
+    print("      Salt: %s" % salt)
+    print("      Value to be hashed: %s\n" % (password + salt))
+    
     hash_value = hashlib.sha512(password + salt).hexdigest()
-
-    """     The %s symbol passes a str variable into the function.
-        In this context, salt value is printed, then a colon, and 
-        finally the computed hexadecimal hash value.                """
-    
-    print("The hash value is " + hash_value + "\n")
-    print("The length of the plain password is %s\nThe length of the hash value is %s\n" % (len(password), len(hash_value)))
-    
-    return hash_value
+    print("      The length of the password: %s" % len(password))
+    print("      Length of hash: %s\n" % len(hash_value))
+    return(hash_value)
 
 
 def main():
@@ -30,8 +26,9 @@ def main():
         plaintext = input()
 
         pass_bytes = bytes(plaintext, 'UTF-8')
-
-        hashed_sha512 = saltPasswd_sha512(pass_bytes) 
+        hashed_passwd = saltPasswd_sha512(pass_bytes)
+        print("Hash digest to be stored: %s\n\n" % hashed_passwd)
+        time.sleep(1)
 
 
 if __name__ == '__main__':
