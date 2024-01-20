@@ -1,13 +1,8 @@
-
+from random import randrange, getrandbits
 
 """     This program generates the semiprime or product n of two large prime numbers p and q.
     Each time an odd number is generated, the program passes a conditional statement: so long
     as is_prime is not True, it will continue to generate prime candidates.         """
-
-
-from random import randrange, getrandbits
-
-
 
 def is_prime(n, k=128):
 
