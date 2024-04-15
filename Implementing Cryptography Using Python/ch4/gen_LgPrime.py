@@ -86,8 +86,7 @@ def main():
     print("")
     print(n)
     print("")
-    print("Digits in semiprime:")
-    print(len(str(n)))
+    print("Digits in semiprime:", len(str(n)))
 
 
 
