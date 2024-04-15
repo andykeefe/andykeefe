@@ -16,4 +16,23 @@ Block ciphers can be used in some hash functions. For example, the Davies-Meyer 
 
 ![image](https://github.com/andykeefe/andykeefe/assets/154836099/5c5097d0-defb-411a-ac74-aa32f22d187e)
 
+The exercises in this set revolve mainly around ECB and CBC modes of encryption. ECB is weaker than CBC. ECB is highly deterministic; identical plaintext blocks result in identical ciphertext blocks. The classic example of this uses an image of Tux, the Linux mascot, and encrypts it in ECB mode. In Shannon's terms, this encryption mode is weak when it comes to diffusion; the statistical properties of the plaintext are not adequately obscured in the ciphertext.
 
+![image](https://github.com/andykeefe/andykeefe/assets/154836099/4ac81e17-b078-493f-b094-3cc15ce13d05)
+
+CBC mode is safer. The encryption of a the first block includes an initialization vector (IV) that is XORed with the plaintext block. All subsequent plaintext block are XORed with the previously encrypted block, and so on. So the first ciphertext depends on the plaintext and IV; the second ciphertext depends on the second plaintext, the first plaintext, and the IV. The third ciphertext depends on the third, second, and first plaintext and the IV, and so on.
+
+![image](https://github.com/andykeefe/andykeefe/assets/154836099/a0796044-f6cc-40c1-b043-7f03fcbe42b7)
+
+
+Exercises for set 2
+-------------------------------------------------------------------------------------------------------
+
+1. Implement PKCS#7 padding
+2. Implement CBC mode
+3. An ECB/CBC detection oracle
+4. Byte-at-a-time ECB decryption (Simple)
+5. ECB cut-and-paste
+6. Byte-at-a-time ECB decryption (Harder)
+7. PKCS#7 padding validation
+8. CBC bitflipping attacks
