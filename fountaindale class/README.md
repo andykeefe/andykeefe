@@ -1,3 +1,10 @@
+![default-1](https://github.com/andykeefe/andykeefe/assets/154836099/8ab0b55f-1a36-4f7f-aa10-09f460983f36)
+
+_The Waterfall_ by Henri Rousseau, 1910
+
+
+Fountaindale Class
+-------------------------------------------------------------------------------------------------------------------------------------------------
 This directory contains code used for a introductory Python course I am teaching at the library. The exercises are intended to "kick-off" 
 someone's coding journey, not provide a comprehensive overview or even a foundational understanding of computer science principles. I'll leave
 that to the learner. 
