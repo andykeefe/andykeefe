@@ -7,7 +7,8 @@ Basics
 
 The authors call this a qualifying set. It gets you ready to write and think like a cryptographer. It requires a level of knowledge beyond just introductory coding, and it's definitely necessary to have open documentation for Python while doing it.
 
-The exercises prescribed are as follows:
+Exercises for set 1
+----------------------------------------------------------------------------------------------------------
 1. Convert hex to base64
 2. Fixed XOR
 3. Single-byte XOR cipher
