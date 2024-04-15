@@ -19,6 +19,6 @@ As always, I heavily comment my code so that anyone who wants to read it for edu
 ----------------------------------------------------------------------------------------------------------------------------------
 ![urn cambridge org id binary 20190731071737872-0600 9781108673471 48322fig37](https://github.com/andykeefe/andykeefe/assets/154836099/1423496b-8b0f-4434-857f-e65e48a9057a)
 
-Cart of the Zecca, Priorista Fiorentino scritto da Luca di Antonio di Marco di Cipriano Chiari l’anno della nascita di NS Gesu Christo MDCXXX, folio 45, 1630 (Biblioteca Magliabechiana, Florence)
+Cart of the Zecca, _Priorista Fiorentino scritto da Luca di Antonio di Marco di Cipriano Chiari l’anno della nascita di NS Gesu Christo MDCXXX_, folio 45, 1630 (Biblioteca Magliabechiana, Florence)
 
 From _The Architecture of Banking in Renaissance Italy: Constructing the Spaces of Money_ by Lauren Jacobi
