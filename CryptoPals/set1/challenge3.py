@@ -3,9 +3,10 @@ def xor_decryption(encoded_string, key):
     for byte in encoded_string:
         decrypted += chr(byte ^ key)
 	# print(decrypted) 
-	# will show all possible decrypted texts.
-	# You could find the plain text manually by searching through all options if you
-	# really wanted to. But we are not that crazy. Uncomment print(decrypted) to see. 
+	""" will show all possible decrypted texts.
+	You could find the plain text manually by searching through all options if you
+	really wanted to. But we are not that crazy. Uncomment print(decrypted) to see. 
+ 	"""
     return decrypted
     
     """
