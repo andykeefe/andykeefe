@@ -1,4 +1,11 @@
+![default-1](https://github.com/andykeefe/andykeefe/assets/154836099/1e708f13-517d-4103-b800-ae80757d0b5e)
+
+_The Safety Patrol_ by Bisa Butler, 2018
+
+
+
 Bray, S. (2020). Implementing Cryptography Using Python. Wiley and Sons, Inc. 
+----------------------------------------------------------------------------------------------
 
 This book is perfect for applying the high-level knowledge one typically gets
 when learning about cryptography. Typical cybersecurity courses provide information
