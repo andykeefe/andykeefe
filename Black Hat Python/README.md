@@ -3,6 +3,7 @@
 
 _Serpent-Halo_ by Odilon Redon, 1890
 
+Black Hat Python
 ----------------------------------------------------------------------------------------------------------------------------------
 This folder contains exercises from Black Hat Python by Justin Seitz and Tim Arnold. A fun book for learning
 some pretty cool stuff. 
