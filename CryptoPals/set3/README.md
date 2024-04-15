@@ -12,6 +12,20 @@ This set focuses a bit more on CTR mode, which uses a block cipher as a stream c
 ![image](https://github.com/andykeefe/andykeefe/assets/154836099/27c50f8b-8262-4d62-b69a-19a897cb8f66)
 
 
-The last four exercises of this set revolve around the MT19937 Mersenne Twister Pseudo-Random Number Generator (PRNG), based on Mersenne prime $`2^{19937} - 1`$, including implementation, cracking the seed, cloning from output, creating a stream cipher from it and breaking it.
+The last four exercises of this set revolve around the MT19937 Mersenne Twister Pseudo-Random Number Generator (PRNG), based on Mersenne prime $`2^{19937} - 1`$, including implementation, cracking the seed, cloning from output, creating a stream cipher from it and breaking it. See the following link for a PDF introducing the Mersenne Twister; it's quite mathematical but gives good information about why this generator exceeded others in terms of performance, and how it can be used in a cryptographically secure system. Note that the MT19937 PRNG is not cryptographically secure in itself but needs to have its output converted with a secure hash algorithm (Matsumoto and Nishimura, 1998, p. 7).
 
-A random number generator intends to randomly generate sequences from an initial seed value. The goal is to approximate a sequence of random looking numbers even though the function itself is deterministic. Cryptographically secure pseudo-random number generators (CSPRNGs) are supposed to be entirely unpredictiable and are unique to cryptographic applications, especially stream ciphers (Paar and Pelzl, 2010, p. 35-36). 
+dl.acm.org/doi/pdf/10.1145/272991.272995
+
+A random number generator intends to randomly generate sequences from an initial seed value. The goal is to approximate a sequence of random looking numbers even though the function itself is deterministic. Cryptographically secure pseudo-random number generators (CSPRNGs) are supposed to be unpredictiable and are unique to cryptographic applications, especially stream ciphers (Paar and Pelzl, 2010, p. 35-36). 
+
+Exercises
+--------------------------------
+1. The CBC padding oracle
+2. Implement CTR, the stream cipher mode
+3. Break fixed-nonce CTR mode using substitutions
+4. Break fixed-nonce CTR statistically
+5. Implement the MT19937 Mersenne Twister RNG
+6. Crack an MT19937 seed
+7. Clone an MT19937 RNG from its output
+8. Create the MT19937 stream cipher and break it
+
