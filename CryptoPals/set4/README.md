@@ -14,7 +14,7 @@ Message authentication codes (MACs) are one-way hash functions that provide inte
 
 $`m = MAC_k(x) `$
 
-where _m_ is the authentication tag, _k_ is a symemetric key, and _x_ is a message.
+where _m_ is the authentication tag, _k_ is a symmetric key, and _x_ is a message.
 
 ![image](https://github.com/andykeefe/andykeefe/assets/154836099/d43943a0-f3d4-4ce1-bde7-0bdf98320993)
 
