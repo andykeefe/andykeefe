@@ -1,3 +1,9 @@
+
+![default](https://github.com/andykeefe/andykeefe/assets/154836099/229671e9-4339-4c6d-8f8a-f048d47968d8)
+
+_Serpent-Halo_ by Odilon Redon, 1890
+
+----------------------------------------------------------------------------------------------------------------------------------
 This folder contains exercises from Black Hat Python by Justin Seitz and Tim Arnold. A fun book for learning
 some pretty cool stuff. 
 
