@@ -3,3 +3,8 @@
 _Ciphers and Constellations in Love with a Woman_ by Joan Miró, 1941
 
 
+Block and Stream Cryptography
+-----------------------------
+More block ciphers! Aren't you overjoyed?
+
+This set focuses a bit more on CTR mode, uses a block cipher as a stream cipher.
