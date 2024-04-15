@@ -81,3 +81,6 @@ def main():
 	First we take our hex string and convert it to bytes using bytes.fromhex() function.
 	We input the result bytes_encoded_string to our xor_key() function. 
     """
+
+if __name__ == '__main__':
+	main()
