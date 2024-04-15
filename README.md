@@ -24,7 +24,7 @@ $cat hobbies
     Books:
             Nonfiction: -- information history, art history, area history
             Fiction -- Russian-language literature (Bulgakov, Dostoyevsky, Olesha, Pelevin)
-            Currently reading: A Hacker's Mind by Bruce Schneier
+            Currently reading: Security Engineering by Ross Anderson (RIP)
     Math: Never my strong suit in school, but it's fun to practice!
             Number Theory: An Introduction to Mathematics by William A. Coppel
             Calculus: Early Transcendentals (8e) by James Stewart
