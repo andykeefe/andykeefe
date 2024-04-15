@@ -1,4 +1,3 @@
-![urn cambridge org id binary 20190731071737872-0600 9781108673471 48322fig37](https://github.com/andykeefe/andykeefe/assets/154836099/1423496b-8b0f-4434-857f-e65e48a9057a)
 
 
 
@@ -12,3 +11,5 @@ This directory has code I used to solve several CryptoPals exercises. CryptoPals
 I've little experience with Go and Rust, so this might be a good opportunity to branch out into a fresh, exciting language. 
 
 As always, I heavily comment my code so that anyone who wants to read it for educational purposes can understand what I've written a little better. I do intend to show some of these exercises to students, especially in my Application Security class in Fall 2024. Maybe they can help me a little bit, too. :)
+
+![urn cambridge org id binary 20190731071737872-0600 9781108673471 48322fig37](https://github.com/andykeefe/andykeefe/assets/154836099/1423496b-8b0f-4434-857f-e65e48a9057a)
