@@ -10,4 +10,20 @@ This set is the last focused on block cipher cryptography, and also covers messa
 
 Authentication is an easy concept to grasp. When you log into something, you need to enter a password or a biometric scan to verify that you are who you say are, when you use an ATM, you need to enter a PIN to access the account; when you try to trade a knock-off Babe Ruth baseball card from the 1930s, the auctioneer first verifies the authenticity (or lack, thereof) of the card. 
 
-Message authentication codes (MACs) are one-way hash functions that provide integrity and authentication. Unlike other one-way functions, they are dependent on a key, specifically symmetric keys. Schneier notes the following: "An easy way to turn a one-way hash function into a MAC is to encrypt the hash value with a symmetric algorithm. Any MAC can be turned into a one-way hash function by making the key public" (Schneier, 2015, pp. 455-456).
+Message authentication codes (MACs) are one-way hash functions that provide integrity and authentication. Unlike other one-way functions, they are dependent on a key, specifically symmetric keys. Schneier notes the following: "An easy way to turn a one-way hash function into a MAC is to encrypt the hash value with a symmetric algorithm. Any MAC can be turned into a one-way hash function by making the key public" (Schneier, 2015, pp. 455-456). The following is a generic notation described by Paar and Pelzl (2010) to describe MACs, as well as a diagram showing the principles of MAC calculation and verification (p. 320):
+
+$`m = MAC_k(x) `$
+
+![image](https://github.com/andykeefe/andykeefe/assets/154836099/d43943a0-f3d4-4ce1-bde7-0bdf98320993)
+
+
+Exercises
+------------------------
+1. Break "random access read/write" AES CTR
+2. CTR bitflipping
+3. Recover the key from CBC with IV=Key
+4. Implement a SHA-1 keyed MAC
+5. Break a SHA-1 keyed MAC using length extension
+6. Break an MD4 keyed MAC using length extension
+7. Implement and break HMAC-SHA1 with an artificial timing leak
+8. Break HMAC-SHA1 with a slightly less artificial timing leak
