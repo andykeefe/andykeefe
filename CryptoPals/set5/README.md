@@ -33,5 +33,15 @@ RSA wasn't the birth of asymmetric/public-key cryptography. That would come a ye
 Anyway. Before getting into the discrete logarithm problem, let's look at how Diffie-Hellman key exchange is set up and operates mathematically. 
 
 - First, choose a large prime _p_.
-- Choose an integer α ∈ {2, 3, ..., _p - 2_}.
+- Choose an integer α ∈ {2, 3, ..., _p_ - 2}.
 - Publish _p_ and α
+
+![image](https://github.com/andykeefe/andykeefe/assets/154836099/f21ea42e-8324-4df2-9483-eac5c0b601a0)
+
+_k_ is the shared secret that will act as the session key between the two parties doing the key exchange.
+Here's a better look at the sequence with which the key is exchanged:
+
+![image](https://github.com/andykeefe/andykeefe/assets/154836099/eaa49610-d4d7-4c11-a7e4-9952248e7ad9)
+
+(Paar and Pelzl, 2010, pp. 206-207)
+
