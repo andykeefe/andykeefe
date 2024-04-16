@@ -6,7 +6,7 @@ From _A Companion to Roman Architecture_ edited by Roger B. Ulrich and Caroline 
 
 CryptoPals
 ----------------------------------------------------------------------------------------------------------------------------------
-This directory has code I used to solve several CryptoPals exercises. CryptoPals was designed to demonstrate attacks on cryptography in the real world. I heard about this from cryptography Go maintainer [Filippo Valsorda](https://filippo.io/) and decide to give it a shot. Currently all of the code will be written in Python; I'm trying to improve my Python skills, and this is a good opportunity for it. However, once I feel I'm able, I will try these problems in another language. I'm deciding between the following:
+This directory has code I used to solve several [CryptoPals](https://cryptopals.com/) exercises. CryptoPals was designed to demonstrate attacks on cryptography in the real world. I heard about this from cryptography Go maintainer [Filippo Valsorda](https://filippo.io/) and decide to give it a shot. Currently all of the code will be written in Python; I'm trying to improve my Python skills, and this is a good opportunity for it. However, once I feel I'm able, I will try these problems in another language. I'm deciding between the following:
 - C
 - C++
 - Java
