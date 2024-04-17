@@ -55,7 +55,7 @@ If you want a quick mathematical overview:
 - Hoffstein, J., et al. (2008). _An Introduction to Mathematical Cryptography_
   - pp. 72-75
 
-If you want an overview of stuff only related to Diffie-Hellman:
+If you want a quicker overview:
 - Paar, C., Pelzl, J. (2010). _Understanding Cryptography_
   - pp. 208-219
  
