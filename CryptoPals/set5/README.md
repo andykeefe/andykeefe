@@ -82,7 +82,7 @@ Using our previous group $` Z^*_{15} `$, let's choose an element of it to find i
 
 So the order of the element 7 is 4, $` ord(7) = 4 `$.
 
-We can check if $` Z^*_{15} `$ is a cyclic group. A cyclic group contains an element, called a _primative element_, that generates every other element within the group, and therefore has a maximum order. Let's try to find a primitive element in $` Z^*_{15} `$:
+We can check if $` Z^*_{15} `$ is a _cyclic group_. A cyclic group contains an element, called a _primative element_, that generates every other element within the group, and therefore has a maximum order. Let's try to find a primitive element in $` Z^*_{15} `$:
 
 I know that 2 and 4 are not primitive elements because both will quickly end up with remainder 1, and we know 7 is not a primitive element because we already found it's order. Lets try _a = 8_.
 
@@ -106,3 +106,14 @@ I know that 2 and 4 are not primitive elements because both will quickly end up 
 - $`a^2 = 196 `$ **mod** $` 15 = 1 `$
 
 14 is not a primitive element of $` Z^*_{15} `$ because $` ord(14) = 2 `$. There are no primitive elements in the group $` Z^*_{15} `$ so it is not a cyclic group. 
+
+Let's look at another group $` Z^*_{10} `$ to find a primitive element. Remember, the set contains all elements less than 10 that are relatively prime to 10, meaning they share no common divisors. In this case the set is {1, 3, 7, 9}. Let _a = 3_ to find out if it's a primitive element or generator.
+
+- $`a^1 = 3 `$ 
+- $`a^2 = 9 `$
+- $`a^3 = 27 `$ **mod** $` 10 = 7 `$
+- $`a^4 = 81 `$ **mod** $` 10 = 1 `$
+
+We see that _a = 3_ is a primitive generator of the group $` Z^*_{10} `$ because it generates every element of the set, so _ord_(3) = _4_. Therefore we can conclude that $` Z^*_{10} `$ is a cyclic group.
+
+There are also subgroups, but I don't feel like writing about them. Sorry! 
