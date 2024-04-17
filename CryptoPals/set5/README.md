@@ -48,7 +48,7 @@ Here's a better look at the sequence with which the key is exchanged:
 To fully understand the discrete logarithm problem, it helps to have some background in abstract algebra, which I'm sure sounds really fun for you. I'll give some resources below for those willing to satiate their curiosity and fulfill their understanding as robustly as possible.
 
 If you've studied calculus and some linear algebra, check out this free textbook:
-- Beezer, R.A. (2015) _A First Course in Linear Algebra_
+- Beezer, R.A. (2015). _A First Course in Linear Algebra_
   - Part 1 (pp. 11-74)
 
 If you want a quick mathematical overview:
