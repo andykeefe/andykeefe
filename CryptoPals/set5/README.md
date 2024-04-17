@@ -49,7 +49,7 @@ To fully understand the discrete logarithm problem, it helps to have some backgr
 
 If you've studied calculus and some linear algebra, check out this free textbook:
 - Beezer, R.A. (2015) _A First Course in Linear Algebra_
-  - Part 1 (pp. 11-74) deals with Groups and Subgroups
+  - Part 1 (pp. 11-74)
 
 If you want a quick mathematical overview:
 - Hoffstein, J., et al. (2008). _An Introduction to Mathematical Cryptography_
@@ -58,3 +58,6 @@ If you want a quick mathematical overview:
 If you want an overview of stuff only related to Diffie-Hellman:
 - Paar, C., Pelzl, J. (2010). _Understanding Cryptography_
   - pp. 208-219
+ 
+
+
