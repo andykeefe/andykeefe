@@ -60,7 +60,7 @@ If you want a quicker overview:
   - pp. 208-219
 
 
-Let's first discuss basic set theory, starting with modular arithmetic. Instead of trying to do a long winded mathematical explanation, I'll just use an example. Imagine a set $`Z^*_n `$ where _n_ = 15. The set consists of all integers _i_ where in $`gcd(i, n) = 1 `$. In this case, the set is {_1, 2, 4, 7, 8, 11, 13, 14_}.
+Let's first discuss basic set theory, starting with modular arithmetic. Instead of trying to do a long winded mathematical explanation, I'll just use an example. Imagine a set $`Z^*_n `$ where _n_ = 15. The set consists of all integers _i_ where in $`gcd(i, n) = 1 `$. In this case, the set is {1, 2, 4, 7, 8, 11, 13, 14}.
  
 
 
