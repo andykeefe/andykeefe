@@ -62,7 +62,7 @@ If you want a quicker overview:
   - pp. 208-219
 
 
-Let's first discuss basic set theory, starting with modular arithmetic. Instead of trying to do a long winded mathematical explanation, I'll just use an example. Imagine a set $`Z^*_n `$ where _n_ = 15. The set consists of all integers _i_ where in $`gcd(i, n) = 1 `$. In this case, the set is {1, 2, 4, 7, 8, 11, 13, 14}. Here is the multiplication table for $` Z^*_{15} `$:
+Let's first discuss basic set theory and groups starting with modular arithmetic. Instead of trying to do a long winded mathematical explanation, I'll just use an example. Imagine a set $`Z^*_n `$ where _n_ = 15. The set consists of all integers _i_ where in $`gcd(i, n) = 1 `$, meaning all integers that are relatively prime to _n_. In this case, the set is {1, 2, 4, 7, 8, 11, 13, 14}. Here is the multiplication table for $` Z^*_{15} `$:
 
 ![image](https://github.com/andykeefe/andykeefe/assets/154836099/72830ea5-713a-40fd-a311-4a84554b3152)
 
@@ -70,6 +70,39 @@ For example, take the numbers in the set 7 and 8. Multiply them and you get 56. 
 
 Notice that the group is closed; any of the numbers in our set are also contained in the table, and no numbers outside of the set are in the table. There are other conditions that need to be met, but that's a basic primer on modular arithmetic. 
 
+------------------------------------------------------
+Cyclic groups are the basis for discrete-logarithm cryptography schemes (Paar and Pelzl, 2010, p. 211). You can determine the _order_ of an element _a_ in a group $`Z^*_n`$ by determining the smallest integer _k_ such that:
+$`a^k = a \circ\ a \circ\ a \circ\  ...  \circ\ a = 1`$ Let's look at an example.
 
+Using our previous group $` Z^*_{15} `$, let's choose an element of it to find its order. Recall that the set of elements in the group is {1, 2, 4, 7, 8, 11, 13, 14}. In this example, we'll find _ord_(_7_):
+- $` a^1 = 7 `$
+- $`a^2 = 49 `$ **mod** $` 15 = 4 `$
+- $`a^3 = 343  `$ **mod** $` 15 = 13 `$
+- $` a^4 = 2401 `$ **mod** $` 15 = 1 `$
 
+So the order of the element 7 is 4, $` ord(7) = 4 `$.
 
+We can check if $` Z^*_{15} `$ is a cyclic group. A cyclic group contains an element, called a _primative element_, that generates every other element within the group, and therefore has a maximum order. Let's try to find a primitive element in $` Z^*_{15} `$:
+
+I know that 2 and 4 are not primitive elements because both will quickly end up with remainder 1, and we know 7 is not a primitive element because we already found it's order. Lets try _a = 8_.
+
+- $` a^1 = 8 `$
+- $` a^2 = 64 `$ **mod** $` 15 = 4 `$
+- $` a^3 = 512 `$ **mod** $` 15 = 2 `$
+- $`a^4 = 4096 `$  **mod** $` 15 = 1 `$
+
+8 is not a primitive element of $` Z^*_{15} `$ because $`ord(8) = 4`$. 
+
+11 is not a primitive element either, so let's try _a = 13_:
+- $`a^1 = 13 `$
+- $`a^2 =  `$ **mod** $` 15 = 4 `$
+- $` a^3 = 2197 `$ **mod** $` 15 = 7 `$
+- $` a^4 = 64 `$ **mod** $` 15 = 4 `$  
+-  $`a^5 = 28561 `$ **mod** $` 15 = 1 `$
+
+13 is not a primitive element of $` Z^*_{15} `$ because  $`ord(13) = 4`$. Let's try _a = 14_.
+
+- $` a^1 = 14 `$
+- $`a^2 = 196 `$ **mod** $` 15 = 1 `$
+
+14 is not a primitive element of $` Z^*_{15} `$ because $` ord(14) = 2 `$. There are no primitive elements in the group $` Z^*_{15} `$ so it is not a cyclic group. 
