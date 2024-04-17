@@ -60,7 +60,12 @@ If you want a quicker overview:
   - pp. 208-219
 
 
-Let's first discuss basic set theory, starting with modular arithmetic. Instead of trying to do a long winded mathematical explanation, I'll just use an example. Imagine a set $`Z^*_n `$ where _n_ = 15. The set consists of all integers _i_ where in $`gcd(i, n) = 1 `$. In this case, the set is {1, 2, 4, 7, 8, 11, 13, 14}.
- 
+Let's first discuss basic set theory, starting with modular arithmetic. Instead of trying to do a long winded mathematical explanation, I'll just use an example. Imagine a set $`Z^*_n `$ where _n_ = 15. The set consists of all integers _i_ where in $`gcd(i, n) = 1 `$. In this case, the set is {1, 2, 4, 7, 8, 11, 13, 14}. Here is the multiplication table for $` Z^*_{15} `$:
+
+![image](https://github.com/andykeefe/andykeefe/assets/154836099/72830ea5-713a-40fd-a311-4a84554b3152)
+
+For example, take the numbers in the set 7 and 8. Multiply them and you get 56. $` 56 mod 15 = 11 `$. You take the remainder of whole number multiplications on 15 to find the answer. 15 can go into 56 three times without exceeding 56. $` 15 \times\ 3 = 45 `$ but $`15 \times\ 4 = 60 `$. The remainder of the operation $` 15 \times\ 3 `$ is 11. 
+
+Notice that the group is closed; any of the numbers in our set are also contained in the table, and no numbers outside of the set are in the table.
 
 
