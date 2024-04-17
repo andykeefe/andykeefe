@@ -30,6 +30,8 @@ Think about the increasing complexity of these examples; the larger the number, 
 
 RSA wasn't the birth of asymmetric/public-key cryptography. That would come a year earlier, in 1976, by Whitfield Diffie and Martin Hellman. Just kidding, the GCHQ, specifically James H. Ellis, formulated the concept of public key cryptography in 1969 but it was classified until 1997, after he died (Hoffstein, et al., 2008, p. 59). GCHQ was cooking, apparently. 
 
+-------------------------
+
 Anyway. Before getting into the discrete logarithm problem, let's look at how Diffie-Hellman key exchange is set up and operates. 
 
 - First, choose a large prime _p_.
@@ -48,15 +50,15 @@ Here's a better look at the sequence with which the key is exchanged:
 To fully understand the discrete logarithm problem, it helps to have some background in abstract algebra, which I'm sure sounds really fun for you. I'll give some resources below for those willing to satiate their curiosity and fulfill their understanding as robustly as possible.
 
 If you've studied calculus and some linear algebra, check out this free textbook:
-- Beezer, R.A. (2015). _A First Course in Linear Algebra_
+- Beezer, R.A. (2015). _A First Course in Linear Algebra_.
   - Part 1 (pp. 11-74)
 
 If you want a quick mathematical overview:
-- Hoffstein, J., et al. (2008). _An Introduction to Mathematical Cryptography_
+- Hoffstein, J., et al. (2008). _An Introduction to Mathematical Cryptography_.
   - pp. 72-75
 
 If you want a quicker overview:
-- Paar, C., Pelzl, J. (2010). _Understanding Cryptography_
+- Paar, C., Pelzl, J. (2010). _Understanding Cryptography_.
   - pp. 208-219
 
 
@@ -66,6 +68,8 @@ Let's first discuss basic set theory, starting with modular arithmetic. Instead 
 
 For example, take the numbers in the set 7 and 8. Multiply them and you get 56. $` 56 mod 15 = 11 `$. You take the remainder of whole number multiplications on 15 to find the answer. 15 can go into 56 three times without exceeding 56. $` 15 \times\ 3 = 45 `$ but $`15 \times\ 4 = 60 `$. The remainder of the operation $` 15 \times\ 3 `$ is 11. 
 
-Notice that the group is closed; any of the numbers in our set are also contained in the table, and no numbers outside of the set are in the table.
+Notice that the group is closed; any of the numbers in our set are also contained in the table, and no numbers outside of the set are in the table. There are other conditions that need to be met, but that's a basic primer on modular arithmetic. 
+
+
 
 
