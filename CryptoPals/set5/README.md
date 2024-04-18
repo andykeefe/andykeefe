@@ -114,6 +114,6 @@ Let's look at another group $` Z^*_{10} `$ to find a primitive element. Remember
 - $`a^3 = 27 `$ **mod** $` 10 = 7 `$
 - $`a^4 = 81 `$ **mod** $` 10 = 1 `$
 
-We see that _a = 3_ is a primitive generator of the group $` Z^*_{10} `$ because it generates every element of the set, so _ord_(3) = _4_. Therefore we can conclude that $` Z^*_{10} `$ is a cyclic group.
+We see that _a = 3_ is a primitive element of the group $` Z^*_{10} `$ because it generates every element of the set, so _ord_(3) = _4_. Therefore we can conclude that $` Z^*_{10} `$ is a cyclic group.
 
 There are also subgroups, but I don't feel like writing about them. Sorry! 
