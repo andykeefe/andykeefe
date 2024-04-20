@@ -116,4 +116,15 @@ Let's look at another group $` Z^*_{10} `$ to find a primitive element. Remember
 
 We see that _a = 3_ is a primitive element of the group $` Z^*_{10} `$ because it generates every element of the set, so _ord_(3) = _4_. Therefore we can conclude that $` Z^*_{10} `$ is a cyclic group.
 
-There are also subgroups, but I don't feel like writing about them. Sorry! 
+There are also subgroups, but I don't feel like writing about them.
+
+Set 5 Problems
+------------------------------------------
+1. Implement Diffie-Hellman
+2. Implement a MITM key-fixing attack on Diffie-Hellman with parameter injection
+3. Implement DH with negotiated groups, and break with malicious "g" parameters
+4. Implement Secure Remote Password (SRP)
+5. Break SRP with a zero key
+6. Offline dictionary attack on simplified SRP
+7. Implement RSA
+8. Implement an E=3 RSA Broadcast attack
