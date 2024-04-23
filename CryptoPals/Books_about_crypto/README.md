@@ -48,5 +48,5 @@ Throughout the blurbs I write for each set of problems, I often make reference t
 - Hoffstein, J., Pipher, J., Silverman J.H. (2008). _An Introduction to Mathematical Cryptography_.
   - [_An Introduction to Mathematical Cryptography_](https://link.springer.com/book/10.1007/978-0-387-77993-5)
 
-- Pointcheval, D. (2022). _Asymmetric cryptography: Primitives and Protocols._
+- Pointcheval, D. (2022). _Asymmetric Cryptography: Primitives and Protocols._
   - [_Asymmetric cryptography_](https://onlinelibrary.wiley.com/doi/book/10.1002/9781394188369)
