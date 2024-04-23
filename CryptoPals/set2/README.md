@@ -8,7 +8,7 @@ _Perspectival Drawing with Three Cubes_ by Peter Flötner, 1528
 
 This section covers cryptography most commonly used in the web: block ciphers. Block ciphers encrypt each block of plaintext with the same key. The length of the block depends on the cipher. For example, AES uses 128 bit length blocks, while DES uses 64 bit length blocks. 
 
-Block ciphers are excellent for providing diffusion. On average, one change in plaintext bit results in the change of half of the output bits (Paar and Pelzl, 2010, p. 58). 
+Block ciphers are excellent for providing diffusion. On average, one change in plaintext bit results in the change of half of the output bits [1]. 
 
 ![image](https://github.com/andykeefe/andykeefe/assets/154836099/0c8d1475-36f8-4915-8121-9de7d2fb5569)
 
@@ -23,6 +23,10 @@ The exercises in this set revolve mainly around ECB and CBC modes of encryption.
 CBC mode is safer. The encryption of a the first block includes an initialization vector (IV) that is XORed with the plaintext block. All subsequent plaintext block are XORed with the previously encrypted block, and so on. So the first ciphertext depends on the plaintext and IV; the second ciphertext depends on the second plaintext, the first plaintext, and the IV. The third ciphertext depends on the third, second, and first plaintext and the IV, and so on.
 
 ![image](https://github.com/andykeefe/andykeefe/assets/154836099/a0796044-f6cc-40c1-b043-7f03fcbe42b7)
+
+## References
+
+[1] Paar, C., & Pelzl, J. (2010)._Understanding Cryptography_. p. 58.
 
 
 ## Exercises for set 2
