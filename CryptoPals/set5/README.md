@@ -7,6 +7,7 @@ _Ulam Spiral_ by Stanisław Ulam, 1964
 
 
 The last four sets have dealt with symmetric cryptography, for example, block ciphers like AES, and MACs using symmetric keys. Symmetric cryptography has been the standard for thousands of years. Now we're getting into the newer, far more mathematical field of asymmetric cryptography, or public key cryptography. Public key algorithms rely on three types of computational problems:
+
 1. Integer factorization: RSA is based on this, for example
 2. Discrete logarithms in finite fields: Diffie-Hellman is based on this, for example
 3. Elliptic curve schemes: Elliptic Curve Diffie Hellman (ECDH) is based on this, for example 
@@ -30,7 +31,7 @@ Take these examples:
 
 Think about the increasing complexity of these examples; the larger the number, the more difficult it becomes to factor into unique primes. This is one of the core security principles of RSA, formalized in 1977 by Ron Rivest, Adi Shamir, and Leonard Adleman (but actually discovered a few years earlier by researchers at Britain's GCHQ), which is one of the algorithms covered in the latter half of this set. RSA will generate a product of two primes, a semi-prime $` n = pq `$, that is over 600 digits long; factoring this integer is currently too intensive to be computationally feasible. Advances in quantum computing may change this in the future, but for now, quantum decoherence and costly quantum error-correction makes efficient cryptanalysis impractical for quantum computers.
 
-RSA wasn't the birth of asymmetric/public-key cryptography. That would come a year earlier, in 1976, by Whitfield Diffie and Martin Hellman. Just kidding, the GCHQ, specifically James H. Ellis, formulated the concept of public key cryptography in 1969 but it was classified until 1997, after he died (Hoffstein, et al., 2008, p. 59). GCHQ was cooking, apparently. 
+RSA wasn't the birth of asymmetric/public-key cryptography. That would come a year earlier, in 1976, by Whitfield Diffie and Martin Hellman. Just kidding, the GCHQ, specifically James H. Ellis, formulated the concept of public key cryptography in 1969 but it was classified until 1997, after he died [1]. GCHQ was cooking, apparently. 
 
 ## Diffie-Hellman and the Discrete Logarithm Problem
 
@@ -43,11 +44,10 @@ Anyway. Before getting into the discrete logarithm problem, let's look at how Di
 ![image](https://github.com/andykeefe/andykeefe/assets/154836099/f21ea42e-8324-4df2-9483-eac5c0b601a0)
 
 _k_ is the shared secret that will act as the session key between the two parties doing the key exchange.
-Here's a better look at the sequence with which the key is exchanged:
+Here's a better look at the sequence with which the key is exchanged [2]:
 
 ![image](https://github.com/andykeefe/andykeefe/assets/154836099/eaa49610-d4d7-4c11-a7e4-9952248e7ad9)
 
-(Paar and Pelzl, 2010, pp. 206-207)
 
 To fully understand the discrete logarithm problem, it helps to have some background in abstract algebra, which I'm sure sounds really fun for you. I'll give some resources below for those willing to satiate their curiosity and fulfill their understanding as robustly as possible.
 
@@ -121,6 +121,13 @@ Let's look at another group $` Z^*_{10} `$ to find a primitive element. Remember
 We see that _a = 3_ is a primitive element of the group $` Z^*_{10} `$ because it generates every element of the set, so _ord_(3) = _4_. Therefore we can conclude that $` Z^*_{10} `$ is a cyclic group.
 
 There are also subgroups, but I don't feel like writing about them.
+
+## References
+
+[1] Hoffstein, J., Pipher, J., Silverman, J. (2008). _An Introduction to Mathematical Cryptography_. p. 59.
+
+[2] Paar, C., & Pelzl, J. (2010). _Understanding Cryptography_. pp. 206-207.
+
 
 Set 5 Problems
 ------------------------------------------
