@@ -2,7 +2,7 @@
 
 Building a Catafalque, Tomb of Ipuy, 1279 BCE-1213 BCE
 
-# Basics and symmetric cryptography
+# Basics, XOR operations, and symmetric cryptography
 
 
 The authors call this a qualifying set. It gets you ready to write and think like a cryptographer. It requires a level of knowledge beyond just introductory coding, and it's definitely necessary to have open documentation for Python while doing it.
@@ -31,7 +31,11 @@ In an XOR operation, one set of ones and zeros is added to another set of ones a
 
 ## Advanced Encryption Standard (AES)
 
+The Rijndael algorithm was developed in the late 1990s. In 2001 it was officially designated as the Advanced Encryption Standard by the NIST after several rounds of competition among different algorithms. 
 
+AES is the most commonly used symmetric algorithm used today. It is considered very secure, even garnering the label of quantum-resistant, if it is implemented properly. AES is designed to operate on 128-bit input blocks, and can use either 128-bit, 192-bit, or 256-bit keys. If you were trying to do an exhaustive key space search or a brute force of AES-128, it would take you more than 10,000,000,000,000,000,000,000,000 years [4]. That's much, much longer than the age of the universe. 
+
+This set implements and attacks AES in ECB mode. There's more info on ECB mode in the next set write-up, but for now it should be noted that ECB is not considered secure because of its failure to adequately secure the statistical properties of the plaintext. 
 
 ---------------------------------------------------------------------------------------------
 
@@ -42,6 +46,8 @@ In an XOR operation, one set of ones and zeros is added to another set of ones a
 [2] Smart, N. (2008). _Cryptography: An Introduction_. p. 35.
 
 [3] Dunin, E., & Schmeh, K. (2023). _Codebreaking: A Practical Guide_. p. 398.
+
+[4] Boneh, D., Shoup, V. (2023). _A Graduate Course in Applied Cryptography_. p. 114-117. 
 
 # Exercises for set 1
 
