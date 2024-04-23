@@ -4,8 +4,8 @@
 _Perspectival Drawing with Three Cubes_ by Peter Flötner, 1528
 
 
-Block Cipher Cryptography
---------------------------------------------------------------------------------------------
+## Block Cipher Cryptography
+
 This section covers cryptography most commonly used in the web: block ciphers. Block ciphers encrypt each block of plaintext with the same key. The length of the block depends on the cipher. For example, AES uses 128 bit length blocks, while DES uses 64 bit length blocks. 
 
 Block ciphers are excellent for providing diffusion. On average, one change in plaintext bit results in the change of half of the output bits (Paar and Pelzl, 2010, p. 58). 
@@ -25,8 +25,8 @@ CBC mode is safer. The encryption of a the first block includes an initializatio
 ![image](https://github.com/andykeefe/andykeefe/assets/154836099/a0796044-f6cc-40c1-b043-7f03fcbe42b7)
 
 
-Exercises for set 2
--------------------------------------------------------------------------------------------------------
+## Exercises for set 2
+
 
 1. Implement PKCS#7 padding
 2. Implement CBC mode
