@@ -3,7 +3,6 @@
 Throughout the blurbs I write for each set of problems, I often make reference to various texts. This section has a complete list of texts referenced, or texts that I think are useful in understanding the topics but aren't explicitly stated. Think of it as a quick bibliography to tap into if you want to go deeper into these topics.
 
 ### General cryptography
--------------------------
 
 - Boneh, D., Shoup, V. (2023). _A Graduate Course in Applied Cryptography_.
   - [_A Graduate Course in Applied Cryptography_](https://crypto.stanford.edu/~dabo/cryptobook/BonehShoup_0_6.pdf)  
@@ -24,7 +23,7 @@ Throughout the blurbs I write for each set of problems, I often make reference t
   - [_Cryptography: An Introduction_](https://www.cs.umd.edu/~waa/414-F11/IntroToCrypto.pdf)
 
 ### Symmetric cryptography
----------------------------------
+
 - Boura, C., & Naya-Plasencia, M. (2024). _Symmetric Cryptography, Volume 1: Design and Security Proofs_.
   - [_Symmetric Cryptography, Volume 1_](https://onlinelibrary.wiley.com/doi/book/10.1002/9781394256358)
 
@@ -46,7 +45,7 @@ Throughout the blurbs I write for each set of problems, I often make reference t
 
 
 ### Asymmetric cryptography
------------------------------------------------
+
 - Hoffstein, J., Pipher, J., Silverman J.H. (2008). _An Introduction to Mathematical Cryptography_.
   - [_An Introduction to Mathematical Cryptography_](https://link.springer.com/book/10.1007/978-0-387-77993-5)
 
