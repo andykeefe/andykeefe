@@ -19,13 +19,25 @@ is encrypted to
 
 LWKLQNLZLOOFRQTXHUJDXO
 
-To decrypt the ciphered message, the recipient would need to have knowledge of the key. Notice that the encryption and decryption key are of the same value, just with "reversed" operation. This is the concept of _symmetric keys_, and the backbone of today's symmetric cryptography: to decrypt an encrypted message, both parties must share the same key.
+To decrypt the ciphered message, the recipient would need to have knowledge of the key. The encryption and decryption key are of the same value, just with "reversed" operations. This is the concept of _symmetric keys_, and the backbone of today's symmetric cryptography: to decrypt an encrypted message, both parties **must** share the same key.
 
-It must be noted that _every_ historical cipher before 1960 used symmetric keys; for nearly 3000 years, symmetric key cryptography was the only way to go [2]. 
+It's true that _every_ historical cipher used symmetric keys; for nearly 3000 years, symmetric key cryptography was the only way to go [2]. Mathematical breakthroughs in the 1960s and 1970s introduced public-key cryptography, or asymmetric cryptography, where in each party has a public key and private key, but we'll talk more about this in another set. Now we'll move on to briefly explaining the XOR operation. 
+
+## XOR operations
+
+Exlusive-or, referred to as XOR, is a bitwise operation, meaning it operates on ones and zeros. Rooted in the earlier 20th century, the XOR operation was used in a _one time pad_, where the key is the length of the message. This was wildly inefficient, and new methods of encryption were sought.
+
+In an XOR operation, one set of ones and zeros is added to another set of ones and zeros. The result of the operation is considered 0 if the XORed values are the same, and 0 is the two values are different. For example if you XOR 1101 with 0111, you get 1010. If 1111 is XORed with 0000, the result is 1111. If 0001 is XORed with 1011, the result is 1000 [3].
+
+---------------------------------------------------------------------------------------------
+
+### References
 
 [1] Sidhpurwala, H. (2023, January 12). A Brief History of Cryptography. Red Hat Blog. https://www.redhat.com/en/blog/brief-history-cryptography 
 
-[2] Smart, N. (2008). _Cryptography: An Introduction_. https://www.cs.umd.edu/~waa/414-F11/IntroToCrypto.pdf
+[2] Smart, N. (2008). _Cryptography: An Introduction_. p. 35.
+
+[3] Dunin, E., & Schmeh, K. (2023). _Codebreaking: A Practical Guide_. p. 398.
 
 # Exercises for set 1
 
