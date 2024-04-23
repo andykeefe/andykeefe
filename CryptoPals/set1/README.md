@@ -29,6 +29,10 @@ Exlusive-or, referred to as XOR, is a bitwise operation, meaning it operates on 
 
 In an XOR operation, one set of ones and zeros is added to another set of ones and zeros. The result of the operation is considered 0 if the XORed values are the same, and 0 is the two values are different. For example if you XOR 1101 with 0111, you get 1010. If 1111 is XORed with 0000, the result is 1111. If 0001 is XORed with 1011, the result is 1000 [3].
 
+## Advanced Encryption Standard (AES)
+
+
+
 ---------------------------------------------------------------------------------------------
 
 ### References
