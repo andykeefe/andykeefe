@@ -3,13 +3,15 @@
 _Ulam Spiral_ by Stanisław Ulam, 1964
 
 
-Number Theoretic Cryptography
-------------------------------------
+# Number Theoretic Cryptography
+
 
 The last four sets have dealt with symmetric cryptography, for example, block ciphers like AES, and MACs using symmetric keys. Symmetric cryptography has been the standard for thousands of years. Now we're getting into the newer, far more mathematical field of asymmetric cryptography, or public key cryptography. Public key algorithms rely on three types of computational problems:
 1. Integer factorization: RSA is based on this, for example
 2. Discrete logarithms in finite fields: Diffie-Hellman is based on this, for example
 3. Elliptic curve schemes: Elliptic Curve Diffie Hellman (ECDH) is based on this, for example 
+
+## Interger factorization and RSA
 
 First, I'll talk about integer factorization. I'll assume that you know what a prime number is. You can google it if you don't. An interesting mathematical principle is that every number can be factored into a unique set of primes. This is the Fundamental Theorem of Arithmetic, first described in Euclid's _Elements_, stated by Kamal al-Din al-Fārisī, and formally proved by Gauss. 
 
@@ -30,7 +32,7 @@ Think about the increasing complexity of these examples; the larger the number, 
 
 RSA wasn't the birth of asymmetric/public-key cryptography. That would come a year earlier, in 1976, by Whitfield Diffie and Martin Hellman. Just kidding, the GCHQ, specifically James H. Ellis, formulated the concept of public key cryptography in 1969 but it was classified until 1997, after he died (Hoffstein, et al., 2008, p. 59). GCHQ was cooking, apparently. 
 
--------------------------
+## Diffie-Hellman and the Discrete Logarithm Problem
 
 Anyway. Before getting into the discrete logarithm problem, let's look at how Diffie-Hellman key exchange is set up and operates. 
 
@@ -61,6 +63,7 @@ If you want a quicker overview:
 - Paar, C., Pelzl, J. (2010). _Understanding Cryptography_.
   - pp. 208-219
 
+### Set theory, group theory, and modular arithmetic
 
 Let's first discuss basic set theory and groups starting with modular arithmetic. Instead of trying to do a long winded mathematical explanation, I'll just use an example. Imagine a set $`Z^*_n `$ where _n_ = 15. The set consists of all integers _i_ where in $`gcd(i, n) = 1 `$, meaning all integers that are relatively prime to _n_. In this case, the set is {1, 2, 4, 7, 8, 11, 13, 14}. Here is the multiplication table for $` Z^*_{15} `$:
 
@@ -70,7 +73,8 @@ For example, take the numbers in the set 7 and 8. Multiply them and you get 56. 
 
 Notice that the group is closed; any of the numbers in our set are also contained in the table, and no numbers outside of the set are in the table. There are other conditions that need to be met, but that's a basic primer on modular arithmetic. 
 
-------------------------------------------------------
+### Cyclic groups
+
 Cyclic groups are the basis for discrete-logarithm cryptography schemes (Paar and Pelzl, 2010, p. 211). You can determine the _order_ of an element _a_ in a group $`Z^*_n`$ by determining the smallest integer _k_ such that:
 $`a^k = a \circ\ a \circ\ a \circ\  ...  \circ\ a = 1`$ Let's look at an example.
 
