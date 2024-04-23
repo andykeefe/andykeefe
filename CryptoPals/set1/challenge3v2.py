@@ -75,7 +75,7 @@ def score_text(text: bytes) -> float:
         
         """
             Return the absolute value of the difference between expected 
-            frequencies found in the Pride and Prejudice and the actual frequencies
+            frequencies found in Pride and Prejudice and the actual frequencies
             found in the XORed plaintext. A low value of err indicates that the 
             decrypted text is similar to actual english letter frequency
         """
