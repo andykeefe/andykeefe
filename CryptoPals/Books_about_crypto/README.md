@@ -33,7 +33,7 @@ Throughout the blurbs I write for each set of problems, I often make reference t
   - [_Symmertric Cryptography Volume 2_](https://onlinelibrary.wiley.com/doi/book/10.1002/9781394256327)
 
 
-- Cid, C., Murphy, S., & Robshaw, M. (2006)._Algebraic Aspects of the Advanced Encryption Standard_.
+- Cid, C., Murphy, S., & Robshaw, M. (2006). _Algebraic Aspects of the Advanced Encryption Standard_.
   - [_Algebraic Aspects of the Advanced Encryption Standard_](https://link.springer.com/book/10.1007/978-0-387-36842-9)
 
 
