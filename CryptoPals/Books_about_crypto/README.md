@@ -20,6 +20,8 @@ Throughout the blurbs I write for each set of problems, I often make reference t
 - Schneier, B. (2015). _Applied Cryptography, Second Edition_.
   - [_Applied Cryptography_](https://onlinelibrary.wiley.com/doi/book/10.1002/9781119183471)
 
+- Smart, N. (2008). Cryptography: An Introduction.
+  - [_Cryptography: An Introduction_](https://www.cs.umd.edu/~waa/414-F11/IntroToCrypto.pdf)
 
 ### Symmetric cryptography
 ---------------------------------
