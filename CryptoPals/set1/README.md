@@ -25,17 +25,17 @@ It's true that _every_ historical cipher used symmetric keys; for nearly 3000 ye
 
 ## XOR operations
 
-Exlusive-or, referred to as XOR, is a bitwise operation, meaning it operates on ones and zeros. Rooted in the earlier 20th century, the XOR operation was used in a _one time pad_, where the key is the length of the message. This was wildly inefficient, and new methods of encryption were sought.
+Exclusive-or, referred to as XOR, is a bitwise operation, meaning it operates on ones and zeros. Rooted in the earlier 20th century, the XOR operation was used in a _one time pad_, where the key is the length of the message. This was wildly inefficient, and new methods of encryption were sought.
 
-In an XOR operation, one set of ones and zeros is added to another set of ones and zeros. The result of the operation is considered 0 if the XORed values are the same, and 0 is the two values are different. For example if you XOR 1101 with 0111, you get 1010. If 1111 is XORed with 0000, the result is 1111. If 0001 is XORed with 1011, the result is 1000 [3].
+In an XOR operation, a set of ones and zeros is added to another set of ones and zeros. The result of the operation is considered 0 if the XORed values are the same, and 1 if the two values are different. For example if you XOR 1101 with 0111, you get 1010. If 1111 is XORed with 0000, the result is 1111. If 0001 is XORed with 1011, the result is 1000 [3].
 
 ## Advanced Encryption Standard (AES)
 
 The Rijndael algorithm was developed in the late 1990s. In 2001 it was officially designated as the Advanced Encryption Standard by the NIST after several rounds of competition among different algorithms. 
 
-AES is the most commonly used symmetric algorithm used today. It is considered very secure, even garnering the label of quantum-resistant, if it is implemented properly. AES is designed to operate on 128-bit input blocks, and can use either 128-bit, 192-bit, or 256-bit keys. If you were trying to do an exhaustive key space search or a brute force of AES-128, it would take you more than 10,000,000,000,000,000,000,000,000 years [4]. That's much, much longer than the age of the universe. 
+AES is the most commonly used symmetric algorithm used today. It is considered very secure, even garnering the label of quantum-resistant if it is implemented properly. AES is designed to operate on 128-bit input blocks, and can use either 128-bit, 192-bit, or 256-bit keys. If you were trying to do an exhaustive key space search or a brute force of AES-128, it would take you more than 10,000,000,000,000,000,000,000 years [4]. That's much, much longer than the age of the universe. 
 
-This set implements and attacks AES in ECB mode. There's more info on ECB mode in the next set write-up, but for now it should be noted that ECB is not considered secure because of its failure to adequately secure the statistical properties of the plaintext. 
+This set implements and attacks AES in ECB mode. There's more info on ECB mode in the next set write-up, but for now it should be noted that ECB is not considered secure because of its failure to adequately obscure the statistical properties of the plaintext. 
 
 ---------------------------------------------------------------------------------------------
 
