@@ -16,7 +16,18 @@ def xor1(a, b):
     result = b''
     for byte_1, byte_2 in zip(a, b):
         result += bytes([byte_1 ^ byte_2])
- 
+
+    # bytes_to_int = int.from_bytes(result, 'big')
+    # print(bin(bytes_to_int))
+    
+    """
+
+        Two lines above will print out the actual binary result of the 
+        XOR operation. Not needed in the challenge6 program but helpful
+        for visualizing the Hamming Distance result.
+    
+    """
+   
     return bytes(result)
     
 """
