@@ -23,8 +23,14 @@ def xor1(a, b):
     """
 
         Two lines above will print out the actual binary result of the 
-        XOR operation. Not needed in the challenge6 program but helpful
+        XOR operation. Not needed for the challenge but educational (?)
         for visualizing the Hamming Distance result.
+
+        bin() can only operate on integers, so you have to take the byte
+        string 'result' and convert it to an integer first using the 
+        int.from_bytes() function. I used big endian for this because
+        I'm used to it but you can use little endian if you want. I am not
+        your boss. 
     
     """
    
