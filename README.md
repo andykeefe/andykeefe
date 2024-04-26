@@ -1,14 +1,14 @@
 
 
+![image](https://github.com/andykeefe/andykeefe/assets/154836099/9b4a3281-ab05-495d-adee-8fa11e963334)
 
-![image](https://github.com/andykeefe/andykeefe/assets/154836099/fb896fd0-cfb3-4d2b-bc1f-28d5a9d01e99)
 
 
 
 
 ## $whoami
 
-I'm Andy the Human, not to be confused with Andy the Goose. 
+I'm Andy (human). 
     
 I took coursework on international security, diplomacy, history, and 
 literature of the Russian language. I often read about these subjects when I have the chance. 
