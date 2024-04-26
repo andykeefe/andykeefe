@@ -16,6 +16,13 @@ specifically the political and ideological relationships of ATPs. I also am inte
 operating systems design and security, cyber-physical systems security, and programming 
 embedded systems.
 
+## $pwd 
+
+While I'm doing my grad degree, I'm working in a public library. I love books and I love
+being friendly, so it works really well. Working there has guilted me into reading more,
+which is always a good thing. It's always fun to see people coming in looking for books
+on computers, security, and other tech stuff.
+
 ## $cat hobbies
 
 Fingerstyle guitar:
