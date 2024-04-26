@@ -42,7 +42,8 @@ if __name__ == '__main__':
 
         Very important to put in the newline character at the end of the first string.
         This matches the input on the cryptopals website. I didn't add the newline
-        character and as such I kept failing.
+        character and as such I kept failing. For future reference, the new line character
+        \n in hex is 0a.
 
     """
 
