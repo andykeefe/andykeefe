@@ -18,11 +18,10 @@ action once I win the lottery will be in pursuit of this goal.
 
 ## $head academic_interests
 
-Currently I'm getting a Masters degree in the Department of Enginnering, Computing, and 
-Mathematical Sciences at Lewis University. Contextual security is my prime focus, 
-specifically the political and ideological relationships of ATPs. I also am interested in
-operating systems design and security, cyber-physical systems security, and programming 
-embedded systems.
+Currently I'm pursuing a Masters degree in the Department of Enginnering, Computing, and 
+Mathematical Sciences at Lewis University. It's been a lot of fun and just a little bit 
+of stress. I enjoy the academic nature of the program, but I'm always looking for ways
+to apply the stuff I've learned in a more practical manner.
 
 ## $pwd 
 
@@ -35,11 +34,11 @@ on computers, security, and other tech stuff.
 
 Fingerstyle guitar:
 
-Blues of the American Piedmont (Blind Blake, Etta Baker, Elizabeth Cotton)
+- Blues of the American Piedmont (Blind Blake, Etta Baker, Elizabeth Cotton)
                     
-Country guitar (Chet Atkins, Glen Campbell)
+- Country guitar (Chet Atkins, Glen Campbell)
 
-Languages: Russian, French, Spanish
+- Languages: Russian, French, Spanish
 
 Books:
         
