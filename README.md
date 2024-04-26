@@ -1,8 +1,16 @@
+
+
+
+![image](https://github.com/andykeefe/andykeefe/assets/154836099/fb896fd0-cfb3-4d2b-bc1f-28d5a9d01e99)
+
+
+
+
 ## $whoami
 
-I'm Andy. I went to UIUC and graduated with a bachelors in International Relations.
+I'm Andy the Human, not to be confused with Andy the Goose. 
     
-While there I took coursework on international security, diplomacy, history, and 
+I took coursework on international security, diplomacy, history, and 
 literature of the Russian language. I often read about these subjects when I have the chance. 
 I love coding, but more than that, I love learning how to code. I love learning in general and 
 have an insatiable desire to be a permanent, full-time, fully-insured student. My first
