@@ -43,23 +43,17 @@ Math: Never my strong suit in school, but it's fun to practice!
 - Number Theory: An Introduction to Mathematics by William A. Coppel
 - Calculus: Early Transcendentals (8e) by James Stewart
 
-## $cat os_hardware
+## $cat os_hardware  --verbose
 
-Like most, my computer journey began on Windows with occassional Mac usage in middle and 
-high school. My first personal laptop was a Chromebook. The most technically 
-sophisticated thing I could is force my friends' Chromebooks to force shut down by 
-hitting the top row of keys with my forearm.
+- HP 14 Laptop
+    - Arch Linux
+    - Used for coding, vim
 
-My next laptop was for university. At the time I didn't require too much fluff, so it had 
-4 GB of RAM and sounded like a small and modest F-35 fighter jet. I don't want to put the 
-blame on Windows 10, but also... I mean, you know if you know. 
+- HP ENVY x360
+    - Windows 11
+    - Used for spinning up Linux VMs, network analysis, and Netflix
 
-I installed a lightweight Linux distro (Arch) after wiping Windows 10 and that low-ram 
-laptop is now my pride and joy. I love using it as a convenient little coding medium.
 
-I currently daily drive Windows 11 (but pretty much only use it to spin up Linux VMs at 
-this point) and Arch Linux, and it's made my computing experience all the more enjoyable 
-and educational. 
 
 <!---
 andykeefe/andykeefe is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
