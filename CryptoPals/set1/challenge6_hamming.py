@@ -23,10 +23,13 @@ def xor1(a, b):
 
     xor1() can be imported from challenge2v2. XOR operations are useful
     for calculating the Hamming Distance between byte strings because 
-    they return 1 if two bits are not the same. For example, with 
-    a = 1010 0011 and b = 0010 1111, a XOR b = 1000 1100. We have three
-    ones in our result, indicating three differences in bits of a and b,
-    so our Hamming distance is 3. 
+    they return 1 if two bits are not the same. Therefore, the Hamming
+    Distance between two byte strings can be calculated by counting the 
+    number of 1s in the result of their XOR operation.
+    
+    For example, with a = 1010 0011 and b = 0010 1111, a XOR b = 1000 1100. 
+    We have three ones in our result, indicating three differences in bits 
+    of a and b, so our Hamming distance is 3. 
 
 """
 
