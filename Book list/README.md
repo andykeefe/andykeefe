@@ -2,11 +2,12 @@
 
 Title page of volume 1 of Pietro Bolongaro Crevenna’s 1775–1776 auction catalogue. The Hague, KB [KW 1756 C 112 [–117]]. From _Private Libraries and Their Documentation, 1665–1830_, edited by Rindert Jagersma, Helwi Blom, Evelien Chayes, and Ann-Marie Hansen
 
-# Books: Tech and Security
 
 I like to keep a reading list for anything I find interesting, figured I'd post some of them here. I don't restrict myself to any particular topics, though I do tend to lean towards nonfiction. I'll try to categorize books as best I can.
 
 I'll start with books related to computers and technology; after all, this is GitHub.
+
+# Tech and Security
 
 ### Cryptography
 
