@@ -29,7 +29,7 @@ I'll start with books related to computers and technology; after all, this is Gi
 
 - _Linux Command line_, William Shotts. 2019.
 
-- _linux Basics for Hackers_, OccupyTheWeb. 2019.
+- _Linux Basics for Hackers_, OccupyTheWeb. 2019.
 
 
 ### Computer Science
