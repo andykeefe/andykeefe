@@ -8,7 +8,7 @@
 
 ## $whoami
 
-I'm Andy (human). 
+Andy (human). 
     
 I took coursework on international security, diplomacy, history, and 
 literature of the Russian language. I often read about these subjects when I have the chance. 
