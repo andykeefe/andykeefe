@@ -31,6 +31,8 @@ I'll start with books related to computers and technology; after all, this is Gi
 
 - _Linux Basics for Hackers_, OccupyTheWeb. 2019.
 
+- _How Linux Works_, Brian Ward. 2021. 
+
 
 ### Computer Science
 - _Algorithms for Big Data_, Hannah Bast, Claudius Korzen, Ulrich Meyer, and Manuel Penschuck. 2022.
@@ -50,7 +52,9 @@ I'll start with books related to computers and technology; after all, this is Gi
 - _Computer Organization and Embedded Systems_,  Carl Hamacher, Zvonko Vranesic, Safwat Zaky, and Naraig Manjikian. 2012.
 
 
-### Programming Languages
+### Programming and scripting Languages
+
+**C programming language**
 
 - _The C Programming Language_, Brian Kernighan and Dennis Ritchie. 1988.
 
@@ -58,13 +62,31 @@ I'll start with books related to computers and technology; after all, this is Gi
 
 - _Embedded C Programming Standard_, Michael Barr. 2018.
 
+**Python**
+
 - _Python for Everybody_, Charles R. Severance. 2024.
 
 - _Introduction to Scientific Programming with Python_, Joakim Sundnes. 2020.
 
+**Java**
+
 - _Think Java_, Allen B. Downey and Chris Mayfield. 2020.
 
 - _Java Foundations: Introduction to Program Design and Data Structures_, John Lewis, Peter DePasquale, and Joe Chase. 2016.
+
+**JavaScript**
+
+- _Eloquent JavaScript_, Marijn Haverbeke. 2019.
+
+**MySQL**
+
+- _MySQL Crash Course_, Rick Silva. 2023.
+
+**Powershell**
+
+- _Powershell for SysAdmins_, Adam Bertram. 2020.
+
+**x86_64**
 
 - _x86-64 Assembly Language Programming with Ubuntu_, Ed Jorgensen. 2022.
 
@@ -81,7 +103,13 @@ I'll start with books related to computers and technology; after all, this is Gi
 
 - _Practical Packet Analysis_, Chris Sanders. 2011.
 
-- _The Practice of Network Security Monitoring_, Richard Bejtlich. 2013. 
+- _The Practice of Network Security Monitoring_, Richard Bejtlich. 2013.
+
+- _Network Flow Analysis_, Michael W. Lucas. 2010.
+
+- _Network Programming with Go_, Adam Woodbeck. 2021.
+
+- _Linux Firewalls_, Michael Rash. 2007. 
 
 
 ### Computer Security
@@ -100,7 +128,9 @@ I'll start with books related to computers and technology; after all, this is Gi
 
 - _Practical IoT Hacking_,  Fotios Chantzis, Ioannis Stais, Paulino Calderon, Evangelos Deirmentzoglou, and Beau Woods. 2021. 
 
-- _Real World Bug Hunting_, Peter Yaworski. 2019
+- _Real World Bug Hunting_, Peter Yaworski. 2019.
+
+- _Practical Linux Forensics_, Bruce Nikkel. 2022.
 
 
 # Math
