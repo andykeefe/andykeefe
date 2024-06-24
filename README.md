@@ -40,7 +40,7 @@ Do I wish the money was better? Yeah! Do I wish I would've bought $5000 of NVIDI
 
 Either way, library IT is great!
 
-## locate /andy -name books -print
+## $ locate /andy -name books -print
 
 I have a book list on here with lots of tech books, and some not tech books that focus more on history. Most of them are open access. Give them a look.
 
