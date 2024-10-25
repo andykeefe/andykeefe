@@ -26,19 +26,15 @@ I have two laptops that I use, and I call them by beautifully constructed, loqua
 
 1. Older laptop:
 
-Mainly used for coding and for general Linux learning. Used to run Windows 10, but after getting sick of my CPU running at 99% at all time I installed Arch and it is now a criminally smooth machine despite the older CPU and meager 4 GB of RAM. Linux 4 lyfe?
+Mainly used for coding and for general Linux learning. Used to run Windows 10, but after getting sick of my CPU running at 99% at all time I installed Arch and it is now a criminally smooth machine despite the older CPU and meager 4 GB of RAM.
      
 2. Newer laptop:
 
-Mainly used for practicing PowerShell and other Windows tools, this is my default e-reader for my USB. This laptop runs, you guessed it, Windows 11. It's a decent system when it's not begging me to make Edge my default browser and to "finish setting up." I'm already set up, laptop, and I won't acquiesce to your whining no matter how annoying it is. Keep it up and I will destroy your existence, and then install Linux. Most likely, I will not forget your pestering. Most certainly, I will not forgive you for it. In the words of an infamous and very real gunslinger, "People don't forget. Nothing gets forgiven."
+Mainly used for practicing PowerShell and other Windows tools, this is my default e-reader for my USB. This laptop runs Windows 11. It's a decent system when it's not begging me to make Edge my default browser and to "finish setting up." I'm already set up, and I won't acquiesce to your whining. Keep it up and I will destroy your existence, and then install Linux. Most likely, I will not forget your pestering. Most certainly, I will not forgive you for it. In the words of an infamous and very real gunslinger, "People don't forget. Nothing gets forgiven."
 
 ## $ cat 00 09 * * * /work/andy/lib
 
-I work in the IT department of a public library. Working in the library is great because my coworkers care about helping people rather than squeezing dollars out of them. You say, "But Andy (not goose), how do you live without the motivation to extract value for shareholders? I am very stupid and only exist to make money and then die!" First I smile at my neighbors, then we listen to a record together, and finally I recommend a free library program for their children to learn about the horrors of reptiles. 
-
-Do I wish the money was better? Yeah! Do I wish I would've bought $5000 of NVIDIA like I nearly did in 2020 but held back because I thought I'd need that money to pay for college but then my parents graciously paid off my last semester and by then NVIDIA was doing numbers and I thought, well the stock's a little pricey now, it'll probably drop soon but then it kept going up and up and up and now I definitely won't buy it but maybe I should but maybe there's an AI bubble about to burst and then I'll buy it after? Of course!
-
-Either way, library IT is great!
+I work in the IT department of a public library.
 
 ## $ locate /andy -name books -print
 
